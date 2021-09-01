@@ -4,17 +4,11 @@
 #
 # Author: Chris Phillips chris.phillips@canarie.ca / twitter:@teamktown
 # Date: June 2, 2015
-# 
-# This software is free software: you can redistribute it and/or modify
-# it under the terms of the GNU General Public License as published by
-# the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version.
+# Updated: Aug, 2021 - author aligned to Apache2 licensing
 #
 # It is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-# GNU General Public License for more details.
-#
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
 
 die() { echo "$@" 1>&2 ; exit 1; }
 [ "$#" -eq 1 ] || die "Usage: certRefresh.sh <FQDN.of.your.directory.org>"
